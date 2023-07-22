@@ -1,0 +1,25 @@
+.txt{
+    color: #eee7e7;
+}
+
+.img-fluid{
+    width: 90vw;
+    height: 80vh;
+    display:block;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center;
+}
+.image-container .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); 
+  }
+  
+  
+  
+  
+  
+  

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Newborough';
+  src: url('../assets/fonts/NEWBOROU.TTF') format('truetype');
+}
+
+.brand {
+  font-family: 'Newborough', cursive;
+  color: #5500f1;
+  font-size: 24px;
+}
+
+.nav-item {
+  font-family: 'Montserrat';
+  margin-right: 5%;
+}
+
+/* Specific styles for Navbar */
+.navbar .nav-link.active {
+  background-image: none; 
+}
+
+/* Other specific styles for the Navbar component can be added here */
