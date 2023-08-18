@@ -60,13 +60,6 @@ export const Navbar = () => {
                   </a>
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link to="/price" style={{textDecoration:"none"}} onClick={handleHomeClick}>
-                  <a className="nav-link active" aria-current="page">
-                    Pricing
-                  </a>
-                </Link>
-              </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -97,6 +90,13 @@ export const Navbar = () => {
                     </Link>
                   </li>
                 </ul>
+              </li>
+              <li className="nav-item glowing-text">
+                <Link to="/book-now" style={{textDecoration:"none"}} onClick={handleHomeClick}>
+                  <a className="nav-link active" aria-current="page">
+                    Book Now
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

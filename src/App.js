@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import { Banner } from './components/banner';
-import { Form } from './components/form';
 import { Footer } from './components/footer';
-import { Price } from './components/prices';
+import  Price from './components/prices';
+import { Form } from './components/form';
 export default function App() {
   const [activeGallery, setActiveGallery] = useState(null);
 
@@ -18,8 +18,7 @@ export default function App() {
         <Navbar handleGalleryChange={handleGalleryChange} />
         <Routes>
           <Route exact path="/" element={<Banner />} />
-          <Route exact path="/form" element={<Form />} />
-          <Route exact path="/price" element={<Price />}/>
+          <Route exact path="/book-now" element={<Form />}/>
         </Routes>
         <Footer />
       </div>

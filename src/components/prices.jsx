@@ -1,40 +1,43 @@
 import React from 'react'
 import "./prices.css"
-export const Price = () => {
+const Price = () => {
   return (
     <div>
-        <div className="wrapper">
-          <div className="product-img">
-            <img src="http://bit.ly/2tMBBTd" height="420" width="327" alt="Harvest Vase" />
+      <div className="wrapper">
+        <div className="product-img">
+          <img src="https://github.com/Subhadeeep25/hotel-celebration/blob/main/src/assets/images/banquet%20(2).jpeg?raw=true" height="420" width="650" loading="lazy" alt="Harvest Vase" />
+        </div>
+        <div className="product-info">
+          <div className="product-text">
+            <h1>Banquet Hall</h1>
+            <h2>by Hotel Celebration</h2>
+            <ul className='product-text'>
+              <li>Central AC</li><li> Security Guards</li> <li>24/7 Power Backup</li><li> Large Halls</li><li> Beautiful Decoration </li>
+            </ul>
           </div>
-          <div className="product-info">
-            <div className="product-text">
-              <h1>Harvest Vase</h1>
-              <h2>by studio and friends</h2>
-              <p>Harvest Vases are a reinterpretation<br /> of peeled fruits and vegetables as<br /> functional objects. The surfaces<br /> appear to be sliced and pulled aside,<br /> allowing room for growth. </p>
-            </div>
-            <div className="product-price-btn">
-              <p><span>78</span>$</p>
-              <button type="button">buy now</button>
-            </div>
+          <div className="product-price-btn">
+            <p>₹<span>50,000</span> </p>
           </div>
         </div>
-        <div className="wrapper">
-          <div className="product-img">
-            <img src="http://bit.ly/2tMBBTd" height="420" width="327" alt="Harvest Vase" />
+      </div>
+      <div className="wrapper">
+        <div className="product-img">
+          <img src="https://github.com/Subhadeeep25/hotel-celebration/blob/main/src/assets/images/room%20(7).jpeg?raw=true" height="420" width="650" alt="Harvest Vase" loading="lazy" />
+        </div>
+        <div className="product-info">
+          <div className="product-text">
+            <h1>Rooms</h1>
+            <h2>by Hotel Celebration</h2>
+            <ul className='product-text'>
+              <li>Central AC</li><li> Security Guards</li> <li>24/7 Power Backup</li><li> Wi-fi</li><li> Attached Washrooms </li>
+            </ul>
           </div>
-          <div className="product-info">
-            <div className="product-text">
-              <h1>Harvest Vase</h1>
-              <h2>by studio and friends</h2>
-              <p>Harvest Vases are a reinterpretation<br /> of peeled fruits and vegetables as<br /> functional objects. The surfaces<br /> appear to be sliced and pulled aside,<br /> allowing room for growth. </p>
-            </div>
-            <div className="product-price-btn">
-              <p><span>78</span>$</p>
-              <button type="button">buy now</button>
-            </div>
+          <div className="product-price-btn">
+            <p>₹<span>1500</span></p>
           </div>
         </div>
-        </div>
+      </div>
+    </div>
   )
 }
+ export default Price;
