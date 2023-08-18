@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hotel-celebration/static/css/main.d68ecdd3.css",
+    "main.js": "/hotel-celebration/static/js/main.eb7cc4c4.js",
+    "static/media/banner.jpg": "/hotel-celebration/static/media/banner.43dcbf2a833a03a3593a.jpg",
+    "static/media/room (2).jpeg": "/hotel-celebration/static/media/room (2).283c709a0e8e60648ff9.jpeg",
+    "static/media/room (6).jpeg": "/hotel-celebration/static/media/room (6).2e35aaf0507697195fa0.jpeg",
+    "static/media/room (7).jpeg": "/hotel-celebration/static/media/room (7).4677bae7feda0ac5424b.jpeg",
+    "static/media/room (3).jpeg": "/hotel-celebration/static/media/room (3).708090ed5394a7eceb30.jpeg",
+    "static/media/room (4).jpeg": "/hotel-celebration/static/media/room (4).7f438077c3866b247dce.jpeg",
+    "static/media/room (5).jpeg": "/hotel-celebration/static/media/room (5).5b1151fed964cacb4dcf.jpeg",
+    "static/media/room (1).jpeg": "/hotel-celebration/static/media/room (1).af9c2afe9bdb8076d31a.jpeg",
+    "static/media/NEWBOROU.TTF": "/hotel-celebration/static/media/NEWBOROU.ff847cea26eb8bb1ed3d.TTF",
+    "index.html": "/hotel-celebration/index.html",
+    "main.d68ecdd3.css.map": "/hotel-celebration/static/css/main.d68ecdd3.css.map",
+    "main.eb7cc4c4.js.map": "/hotel-celebration/static/js/main.eb7cc4c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d68ecdd3.css",
+    "static/js/main.eb7cc4c4.js"
+  ]
+}
